@@ -1,0 +1,14 @@
+body {
+  background: white;
+}
+div {
+  width: calc(100% / 2);
+}
+.el1 {
+  background: green;
+  float: left;
+}
+.el2 {
+  background: red;
+  float: right;
+}
