@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: #666666;
+  color: #a9a8a4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.element100 {
+  background-color: black;
+  width: 630px;
+  height: 300px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.element {
+  height: 90px;
+  width: 200px;
+}
+.element p {
+  font-size: 16px;
+  padding-left: 50px;
+}
+.element h1 {
+  padding-left: 50px;
+  font-size: 40px;
+  font-weight: 400;
+}
+nav {
+  background-color: #232323;
+  height: 45px;
+  width: 26%;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  justify-content: space-between;
+  padding: 12px 10px 12px 10px;
+  margin: 1px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a9a8a4;
+}
+section {
+  width: 975px;
+  margin: auto;
+  margin-top: 75px;
+}
+.top {
+  padding-top: 40%;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.top img {
+  background-color: #333333;
+  width: 630px;
+  height: 300px;
+  margin-left: 10px;
+}
+.top main {
+  background-color: lightgrey;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 3px;
+  padding-top: 4px;
+}
+.top main h2 {
+  font-weight: 400;
+  color: grey;
+  font-size: 50px;
+  font-style: oblique;
+}
+.top main p {
+  color: grey;
+}
+.top main a {
+  text-decoration: none;
+  margin-left: 200px;
+  padding-bottom: 300px;
+  color: rgb(206, 151, 50);
+}
+.orta {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 3px;
+  padding-top: 4px;
+}
+.card {
+  width: 310px;
+}
+.card h6 {
+  color: grey;
+  font-size: 16px;
+}
+.card p {
+  margin-bottom: 50px;
+}
+.orta .card a {
+  text-decoration: none;
+  margin-left: 210px;
+  margin-top: 60px;
+  color: rgb(229, 160, 30);
+}
+.card img {
+  background-color: rgb(23, 22, 22);
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+.alt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.alt img {
+  background-color: #666464;
+  width: 210px;
+  height: 100px;
+}
